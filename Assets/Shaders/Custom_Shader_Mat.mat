@@ -70,13 +70,13 @@ Material:
     - _QueueOffset: 0
     - _Shadow_Brightness: 1
     - _Shadow_Edge: 0
-    - _Specular_Brightness: 0
+    - _Specular_Brightness: 0.58
     - _Specular_Power: 1
     m_Colors:
-    - _Diffuse: {r: 1, g: 1, b: 1, a: 0}
+    - _Diffuse: {r: 0.9528302, g: 0.5528213, b: 0.5528213, a: 0}
     - _Emission_Color: {r: 0.7169812, g: 0.07102172, b: 0.07102172, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
     - _Shadow_Color: {r: 0.6745283, g: 0.6828537, b: 1, a: 0}
-    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular_Color: {r: 0.38386074, g: 0.9245283, b: 0.3270737, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
