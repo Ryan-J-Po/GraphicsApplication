@@ -64,15 +64,17 @@ Material:
     - _Lighting_Fall_off: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Shadow_Brightness: 1
+    - _Shadow_Brightness: 0
     - _Shadow_Edge: 0
     - _Specular_Brightness: 0
     - _Specular_Power: 1
     m_Colors:
-    - _Diffuse: {r: 0, g: 0.2685759, b: 1, a: 0}
+    - _Diffuse: {r: 0.9133022, g: 1, b: 0, a: 0}
     - _Emission_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _HatchingLineColor: {r: 0, g: 0.25763893, b: 1, a: 0}
+    - _Light_Direction: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Shadow_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
