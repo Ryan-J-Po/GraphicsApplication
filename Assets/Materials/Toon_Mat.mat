@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Toon_Mat
-  m_Shader: {fileID: -6465566751694194690, guid: e0d5bf0378371ed429497ca88618291c, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 85bb6ae4018611944a1dd33907661da2, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -25,6 +25,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CustomShaderTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -68,6 +72,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ShadowTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -97,7 +105,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emission_Strength: 0
+    - _Emission_Strength: 29.8
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -123,13 +131,15 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Diffuse: {r: 1, g: 1, b: 1, a: 0}
+    - _Diffuse: {r: 0.6685208, g: 0.7295239, b: 0.7830189, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Emission_Color: {r: 0, g: 0.07667971, b: 1, a: 0}
+    - _Emission_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _HatchingLineColor: {r: 1, g: 1, b: 1, a: 0}
+    - _Light_Direction: {r: 0, g: 0, b: 0, a: 0}
     - _Offset: {r: 0, g: 0, b: 0, a: 0}
-    - _Shadow_Color: {r: 0.03034888, g: 0.20754719, b: 0.060630485, a: 0}
+    - _Shadow_Color: {r: 0.5283019, g: 0.15440236, b: 0.14204343, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Specular_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Specular_Color: {r: 0.27748302, g: 0.85882354, b: 0.05882351, a: 0}
     - _Tiling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4224110811284355620
